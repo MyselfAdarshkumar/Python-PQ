@@ -1,25 +1,31 @@
-# Simple calculator script that performs basic arithmetic operations based on user input
+# A simple calculator that adds, subtracts, multiplies and finds remainder
 
+# Taking numbers from user
 first = int(input(" Enter your first number: - "))      # Get the first number from the user
 second = int(input("Enter your 2nd number: -"))         # Get the second number from the user
-calculate = str(input(" what you want to perform ( + , - , * , % ) : -"))  # Get the operation
 
+# Ask user which math operation they want to do
+calculate = str(input(" what you want to perform ( + , - , * , % ) : -"))
+
+# Check which operation user chose and show result
 if calculate == "+":
     print(" Addation is :-")
-    print(first + second)       # Perform addition
+    print(first + second)       # Add two numbers
 
 elif calculate == "-":
     print(" subtraction is :-")
-    print(first - second)       # Perform subtraction
+    print(first - second)       # Subtract second from first number
 
 elif calculate == "*":
     print(" multiply is :-")
-    print(first * second)       # Perform multiplication
+    print(first * second)       # Multiply two numbers
 
 elif calculate == "%":
     print(" remainder is :-")
-    print(first % second)       # Perform modulo operation
+    print(first % second)       # Show remainder after division
 
 else:
-    print("wrong input")        # Handle invalid operation input
+    print("wrong input")        # Show error if user types wrong operation
+
+# Created by Adarsh 👨‍💻
 
