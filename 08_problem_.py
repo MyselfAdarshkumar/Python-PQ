@@ -1,10 +1,12 @@
 # Write a program to store seven fruits in a list entered by the user
 
-fruits=[]
+# create list
+fruits = []
 
+# take input
+for i in range(0, 7):
+    f1 = input("Enter fruit name : ")
+    fruits.append(f1)
 
-for i in range (0,7):
-	f1=input("enter 'fruits' name  -  ")
-	fruits.append(f1)
-
+# final result
 print(fruits)
