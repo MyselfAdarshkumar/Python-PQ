@@ -10,4 +10,4 @@ c = float(input("Enter temperature in Celsius: "))
 
 # Convert and display result
 f = c_to_f(c)
-print(f"{c}°C is equal to {f}°F")
+print(f"{c}°C is equal to {round(f,2)}°F")
