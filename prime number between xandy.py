@@ -7,7 +7,10 @@ for i in range(x, y+1):        # check numbers from x to y
 			print(i, "not prime")
 			break               # stop checking further
 	else:                       # runs only if no break (prime)
-		print(i, "prime")
+		if i != 1:
+			print(i, "prime")
+		else:
+			print(i, "not prime")
 if x>y:
 	print (" not valid" )
 	print("first number is always smaller")
